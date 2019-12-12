@@ -23,7 +23,7 @@ class TestClass extends \PHPUnit_Framework_TestCase
 
     public function testPass()
     {
-        $this->assertTrue($this->value1 + $this->value2 == 13);
+        $this->assertTrue($this->value1 + $this->value2 == 14);
     }
 
 }
